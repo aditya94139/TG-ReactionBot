@@ -41,7 +41,7 @@ async def send_emojis(_, msg: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("◇ᴄʟᴏꜱᴇ◇" ,callback_data = "close")
+                    InlineKeyboardButton("◇ᴄʟᴏꜱᴇ◇", callback_data = "close")
                 ]
             ]
         )
